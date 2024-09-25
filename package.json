@@ -1,0 +1,9 @@
+{
+  "name": "article-preview-component",
+  "version": "1.0.0",
+  "description": "first component made for Frontend Mentor in JS Path.",
+  "main": "index.js",
+  "repository": "https://github.com/leeport511/article-preview-component.git",
+  "author": "Leonardo Portillo <leonardoandres.portillo@gmail.com>",
+  "license": "MIT"
+}
