@@ -5,5 +5,11 @@
   "main": "index.js",
   "repository": "https://github.com/leeport511/article-preview-component.git",
   "author": "Leonardo Portillo <leonardoandres.portillo@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "build-sass": "sass ./sass/main.scss ./css/main.css -w"
+  },
+  "dependencies": {
+    "sass": "^1.79.3"
+  }
 }
