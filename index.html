@@ -8,25 +8,56 @@
       <title>Article Preview Component</title>
 </head>
 <body>
-      <article>
-            <section>
-                  <img src="" alt="">
-            </section>
-            <section>
-                  <h5>Shift the overall look and feel by adding these wonderful 
-                        touches to furniture in your home</h5>
-                  <p> Ever been in a room and felt like something was missing? Perhaps 
-                        it felt slightly bare and uninviting. I’ve got some simple tips 
-                        to help you make any room feel complete.</p> 
-                  <div>
-                        <div>
-                              <img src="" alt="">
-                              <h6>Michelle Appleton</h6>
-                              <p>28 Jun 2020</p>
-                        </div>
-                        <button><img src="./assets/images/icon-share.svg" alt="share"></button>
-                  </div>           
-            </section>
+      <article class="article">
+            <div class="article-container">
+                  <section class="article-container-l-image">
+                        <img src="./assets/images/drawers.jpg" alt="drawers">
+                  </section>
+                  <section class="article-container-r-description">
+                        <h5>Shift the overall look and feel by adding these wonderful 
+                              touches to furniture in your home</h5>
+                        <p> Ever been in a room and felt like something was missing? Perhaps 
+                              it felt slightly bare and uninviting. I’ve got some simple tips 
+                              to help you make any room feel complete.</p> 
+                        <div class="footer">
+                              <div class="footer-journalist">
+                                    <img src="./assets/images/avatar-michelle.jpg" alt="Michelle">
+                                    <div>
+                                          <h6>Michelle Appleton</h6>
+                                          <p>28 Jun 2020</p>
+                                    </div>
+                              </div>
+                              <button id="principal-btn">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="13"><path fill="#6E8098" d="M15 6.495L8.766.014V3.88H7.441C3.33 3.88 0 7.039 0 10.936v2.049l.589-.612C2.59 10.294 5.422 9.11 8.39 9.11h.375v3.867L15 6.495z"/></svg>
+                              </button>
+                              <div class="footer-active-state hidden" id="active-state-mobile">
+                                    <div class="active-state-container">
+                                          <div class="active-state-logos">
+                                                <h6>share</h6>
+                                                <img src="./assets/images/icon-facebook.svg" alt="Facebook-logo">
+                                                <img src="./assets/images/icon-twitter.svg" alt="Twitter-logo">
+                                                <img src="./assets/images/icon-pinterest.svg" alt="pinterest-logo">
+                                          </div>
+                                          <button id="act-st-btn">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="13" fill="#ffffff" ><path d="M15 6.495L8.766.014V3.88H7.441C3.33 3.88 0 7.039 0 10.936v2.049l.589-.612C2.59 10.294 5.422 9.11 8.39 9.11h.375v3.867L15 6.495z"/></svg>
+                                          </button>
+                                    </div>
+
+                              </div>
+                              <div class="footer-d-active-state hidden" id="active-state-desktop">
+                                    <div class="active-d-state-container">
+                                          <div class="active-d-state-logos">
+                                                <h6>share</h6>
+                                                <img src="./assets/images/icon-facebook.svg" alt="Facebook-logo">
+                                                <img src="./assets/images/icon-twitter.svg" alt="Twitter-logo">
+                                                <img src="./assets/images/icon-pinterest.svg" alt="pinterest-logo">
+                                          </div>
+                                          <div class="arrow-down"></div>
+                                    </div>
+                              </div>
+                        </div>           
+                  </section>
+            </div>
       </article>
 
       <script src="./scripts/main.js"></script>
